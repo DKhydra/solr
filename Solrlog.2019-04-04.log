@@ -1,0 +1,150 @@
+2019-04-04 13:35:08,598 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 84777 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 13:35:08,601 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 13:35:08,601 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 13:35:09,093 DEBUG [main] MybatisAutoConfiguration: Searching for mappers annotated with @Mapper
+2019-04-04 13:35:09,094 DEBUG [main] MybatisAutoConfiguration: Using auto-configuration base package 'com.jasongofen'
+2019-04-04 13:35:09,108 WARN  [main] ClassPathMapperScanner: No MyBatis mapper was found in '[com.jasongofen]' package. Please check your configuration.
+2019-04-04 13:35:10,091 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 13:35:10,132 WARN  [main] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-04-04 13:35:10,204 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-04-04 13:35:47,859 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 84798 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 13:35:47,861 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 13:35:47,862 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 13:35:48,364 DEBUG [main] MybatisAutoConfiguration: Searching for mappers annotated with @Mapper
+2019-04-04 13:35:48,364 DEBUG [main] MybatisAutoConfiguration: Using auto-configuration base package 'com.jasongofen'
+2019-04-04 13:35:48,377 WARN  [main] ClassPathMapperScanner: No MyBatis mapper was found in '[com.jasongofen]' package. Please check your configuration.
+2019-04-04 13:35:49,320 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 13:35:49,418 WARN  [main] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-04-04 13:35:49,436 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-04-04 13:36:43,046 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 84829 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 13:36:43,048 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 13:36:43,049 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 13:36:43,503 DEBUG [main] MybatisAutoConfiguration: Searching for mappers annotated with @Mapper
+2019-04-04 13:36:43,503 DEBUG [main] MybatisAutoConfiguration: Using auto-configuration base package 'com.jasongofen'
+2019-04-04 13:36:43,519 WARN  [main] ClassPathMapperScanner: No MyBatis mapper was found in '[com.jasongofen]' package. Please check your configuration.
+2019-04-04 13:36:44,430 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 13:36:44,469 WARN  [main] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-04-04 13:36:44,566 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-04-04 13:38:24,508 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 84880 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 13:38:24,511 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 13:38:24,511 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 13:38:24,976 DEBUG [main] MybatisAutoConfiguration: Searching for mappers annotated with @Mapper
+2019-04-04 13:38:24,977 DEBUG [main] MybatisAutoConfiguration: Using auto-configuration base package 'com.jasongofen'
+2019-04-04 13:38:24,993 WARN  [main] ClassPathMapperScanner: No MyBatis mapper was found in '[com.jasongofen]' package. Please check your configuration.
+2019-04-04 13:38:25,884 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 13:38:25,987 WARN  [main] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-04-04 13:38:26,003 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-04-04 13:40:12,642 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 84931 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 13:40:12,646 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 13:40:12,647 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 13:40:13,217 DEBUG [main] MybatisAutoConfiguration: Searching for mappers annotated with @Mapper
+2019-04-04 13:40:13,218 DEBUG [main] MybatisAutoConfiguration: Using auto-configuration base package 'com.jasongofen'
+2019-04-04 13:40:13,233 WARN  [main] ClassPathMapperScanner: No MyBatis mapper was found in '[com.jasongofen]' package. Please check your configuration.
+2019-04-04 13:40:14,152 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 13:40:14,190 WARN  [main] AnnotationConfigServletWebServerApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-04-04 13:40:14,283 ERROR [main] LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-04-04 13:40:55,004 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 84953 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 13:40:55,007 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 13:40:55,007 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 13:40:56,393 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 13:40:56,746 INFO  [main] SolrProjectApplication: Started SolrProjectApplication in 2.352 seconds (JVM running for 2.984)
+2019-04-04 14:22:19,658 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 86205 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 14:22:19,660 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 14:22:19,661 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 14:22:20,853 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 14:22:21,156 INFO  [main] SolrProjectApplication: Started SolrProjectApplication in 2.143 seconds (JVM running for 2.791)
+2019-04-04 14:22:54,589 INFO  [main] SolrProjectApplication: Starting SolrProjectApplication on localhost with PID 86224 (/Users/gofen/Desktop/SolrProject/target/classes started by gofen in /Users/gofen/Desktop/SolrProject)
+2019-04-04 14:22:54,593 DEBUG [main] SolrProjectApplication: Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-04 14:22:54,594 INFO  [main] SolrProjectApplication: The following profiles are active: dev
+2019-04-04 14:22:55,979 WARN  [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-04 14:22:56,280 INFO  [main] SolrProjectApplication: Started SolrProjectApplication in 2.405 seconds (JVM running for 3.054)

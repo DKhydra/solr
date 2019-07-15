@@ -1,0 +1,8 @@
+${AnsiColor.GREEN}      _     _           __                     ${AnsiColor.GREEN}
+${AnsiColor.GREEN}      /    /          /    )           /  _    ${AnsiColor.GREEN}
+${AnsiColor.GREEN}     /___ /           \         __    /    )__ ${AnsiColor.GREEN}
+${AnsiColor.GREEN}    /    /    ===      \      /   )  /    /   )${AnsiColor.GREEN}
+${AnsiColor.GREEN}  _/____/__________(____/____(___/__/____/_____${AnsiColor.GREEN}
+
+${AnsiColor.BRIGHT_BLUE}:: H-SOLR ÓÓ  :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.jianshu.com/u/05ca700d5e28 ::${AnsiColor.DEFAULT}

@@ -1,0 +1,15 @@
+# 环境配置文件
+server:
+  port: 8080
+
+debug: false
+
+spring:
+  profiles:
+    active: dev
+
+# solr配置
+solr:
+  server: localhost:8983
+  core: TestCore
+  dir: C:\Users\BM\Desktop\solrfile\data\
